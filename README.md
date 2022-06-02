@@ -54,35 +54,49 @@ If the control input changes to AB = 10, then all the gates are restricted excep
 ### PROGRAM 
 /*
 Program for flipflops  and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
+Developed by: D.R.Vinuthna
+RegisterNumber:  212221230017
 */
 
+### Multiplexer:
 
-
-
-
+module MUX(I0,I1,I2,I3,S0,S1,Y);
+input I0,I1,I2,I3,S0,S1;
+output Y;
+not(S0C,S0);
+nor(S1C,S1);
+wire P,Q,R,S,S0C,S1C;
+and(P,S0C,S1C,I0);
+and(Q,S0C,S1,I1);
+and(R,S0,S1C,I2);
+and(S,S0,S1,I3);
+or(Y,P,Q,R,S);
+endmodule
 
 ### RTL LOGIC  
-
-
-
-
-
-
 
 
 ### TIMING DIGRAMS  
 
 
-
-
-
 ### TRUTH TABLE 
 
+### DE-MULTIPLEXER:
 
+module DEMUX(Y0,Y1,Y2,Y3,S0,S1,I);
+input S0,S1,I;
+output Y0,Y1,Y2,Y3;
+wire S0C,S1C;
+not(S0C,S0);
+not(S1C,S1);
+and(Y0,I,S0C,S1C);
+and(Y1,I,S0C,S1);
+and(Y2,I,S0,S1C);
+and(Y3,I,S0,S1);
+endmodule
 
-
-
+### RTL LOGIC
+### TIMING DIAGRAM
+### TRUTH TABLE
 
 ### RESULTS 
