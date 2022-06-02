@@ -73,12 +73,19 @@ or(Y,P,Q,R,S);
 endmodule
 ```
 ### RTL LOGIC  
-
+![output](https://github.com/VINUTHNA-2004/Exercise-07-Multiplexer-and-De--multiplexer/blob/main/7a.png?raw=true)
 
 ### TIMING DIGRAMS  
+![output](https://github.com/VINUTHNA-2004/Exercise-07-Multiplexer-and-De--multiplexer/blob/main/7t1.png?raw=true)
 
+![output](https://github.com/VINUTHNA-2004/Exercise-07-Multiplexer-and-De--multiplexer/blob/main/7t2.png?raw=true)
+
+![output](https://github.com/VINUTHNA-2004/Exercise-07-Multiplexer-and-De--multiplexer/blob/main/7t3.png?raw=true)
+
+![output](https://github.com/VINUTHNA-2004/Exercise-07-Multiplexer-and-De--multiplexer/blob/main/7t4.png?raw=true)
 
 ### TRUTH TABLE 
+![output](https://github.com/VINUTHNA-2004/Exercise-07-Multiplexer-and-De--multiplexer/blob/main/7tt.png?raw=true)
 
 ### DE-MULTIPLEXER:
 ```
@@ -95,7 +102,13 @@ and(Y3,I,S0,S1);
 endmodule
 ```
 ### RTL LOGIC
-### TIMING DIAGRAM
-### TRUTH TABLE
+![output](https://github.com/VINUTHNA-2004/Exercise-07-Multiplexer-and-De--multiplexer/blob/main/7b.png?raw=true)
 
-### RESULTS 
+### TIMING DIAGRAM
+![output](https://github.com/VINUTHNA-2004/Exercise-07-Multiplexer-and-De--multiplexer/blob/main/7t5.png?raw=true)
+
+### TRUTH TABLE
+![output](https://github.com/VINUTHNA-2004/Exercise-07-Multiplexer-and-De--multiplexer/blob/main/7tt1.png?raw=true)
+
+### RESULTS
+Hence 4x1 Multiplexer and 1x4 Demultiplexer is been implemented and verified using verilog programming and its output are validated.
